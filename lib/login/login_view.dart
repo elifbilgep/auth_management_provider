@@ -1,6 +1,6 @@
-import 'package:auth_management_provider/login/login_resources.dart';
+import 'login_resources.dart';
 import 'package:flutter/material.dart';
-import './login_view_model.dart';
+import 'login_view_model.dart';
 
 class LoginView extends LoginViewModel with LoginResources {
   final EdgeInsets paddingNormal = const EdgeInsets.all(20.0);

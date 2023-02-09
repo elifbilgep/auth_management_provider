@@ -1,10 +1,9 @@
-import 'package:auth_management_provider/core/auth_manager.dart';
-import 'package:auth_management_provider/home/home_view.dart';
-import 'package:auth_management_provider/home/model/user_model.dart';
-import 'package:auth_management_provider/login/login_view.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '../core/auth_manager.dart';
+import '../home/home_view.dart';
+import '../home/model/user_model.dart';
 import '../login/login.dart';
 
 class SplashView extends StatefulWidget {

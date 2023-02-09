@@ -1,6 +1,6 @@
-import 'package:auth_management_provider/core/auth_manager.dart';
-import 'package:auth_management_provider/login/login.dart';
-import 'package:auth_management_provider/splash/splash_view.dart';
+import 'core/auth_manager.dart';
+import 'login/login.dart';
+import 'splash/splash_view.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

@@ -1,16 +1,14 @@
-import 'dart:math';
-
-import 'package:auth_management_provider/core/auth_manager.dart';
-import 'package:auth_management_provider/core/cache_manager.dart';
-import 'package:auth_management_provider/home/home_view.dart';
-import 'package:auth_management_provider/home/model/user_model.dart';
-import 'package:auth_management_provider/login/model/user_request_model.dart';
-import 'package:auth_management_provider/login/service/ILoginService.dart';
+import '../core/auth_manager.dart';
+import '../core/cache_manager.dart';
+import '../home/home_view.dart';
+import '../home/model/user_model.dart';
+import 'model/user_request_model.dart';
+import 'service/ILoginService.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_pretty_dio_logger/flutter_pretty_dio_logger.dart';
 import 'package:provider/provider.dart';
-import './login.dart';
+import 'login.dart';
 
 abstract class LoginViewModel extends State<Login> with CacheManager {
   late final LoginService loginService;

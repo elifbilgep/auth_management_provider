@@ -1,7 +1,7 @@
 import 'dart:io';
 
-import 'package:auth_management_provider/login/model/user_request_model.dart';
-import 'package:auth_management_provider/login/model/user_response_model.dart';
+import '../model/user_request_model.dart';
+import '../model/user_response_model.dart';
 import 'package:dio/dio.dart';
 
 abstract class ILoginService {

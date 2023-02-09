@@ -1,6 +1,6 @@
-import 'package:auth_management_provider/core/auth_manager.dart';
-import 'package:auth_management_provider/core/cache_manager.dart';
-import 'package:auth_management_provider/home/model/user_model.dart';
+import '../core/auth_manager.dart';
+import '../core/cache_manager.dart';
+import 'model/user_model.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
